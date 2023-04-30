@@ -1,0 +1,163 @@
+:root {--main-color:#434455;
+       --title-color:#2E2F42;
+       --accent-color:#404BBF;}
+body{font-family:"Roboto",sans-serif;
+     color:var(--main-color); }
+.link {text-decoration: none;}    
+.list {list-style: none;}
+button {cursor:pointer; font-family:inherit;}
+/*-----------h2-----------*/
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color)
+    }
+/*-----------h3-----------*/
+.title-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color)
+}
+/*----------p------------*/
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-color)
+    }   
+/*----------header---------*/
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+
+}
+.header-list {
+}
+.header-item {
+  
+}
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2E2F42; 
+  text-decoration: none;  
+}
+.header-link:hover, .header-link:focus{
+    color:var(--accent-color);}
+.header-adress {}
+.header-adress-list{}
+.header-adress-item{}
+.header-adress-mail {
+   font-style: normal; 
+   font-weight: 400; 
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.02em;
+   color: #434455;
+   text-decoration: none; }
+.header-adress-mail:hover,  .header-adress-mail:focus{
+    color: var(--accent-color);}
+.header-adress-phone  {
+    font-style: normal;
+    font-weight: 400; 
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;}
+ /*----------------main-------------*/
+.hero { background-color: #2E2F42;
+    }
+.hero-text {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1,07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    }
+.hero-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    }
+.hero-button:hover, .hero-button:focus { background-color:var(--accent-color) ;}  
+.principles {
+    }
+.principles-title {}   
+.principles-list {
+    }
+.principles-item {
+    }
+.principles-title-text {
+    }
+.principles-text {
+    }
+.job {
+    }
+.job-title {
+    }
+.job-list {
+    }
+.job-item {
+    }
+.team {
+    }
+.team-title {
+    }
+.team-list {
+    }
+.team-item {
+    }
+.team-title-text {
+    }
+.team-text {
+    }
+/*--------------main portfolio-------------*/  
+.portfolio-button-section{}
+.button-list{}
+.buttom-item{}
+.portfolio-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background-color: #F4F4FD;}
+.portfolio-button:hover,.portfolio-button:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+.portfolio-images{}
+.portfolio-images-list{}
+.portfolio-images-item{}
+.portfolio-images-title-text
+.portfolio-images-text{}
+
+/*--------------footer-------------*/
+.footer {background-color: #2E2F42;}
+.footer-link {}
+.footer-text {
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;}
