@@ -76,9 +76,7 @@ button {cursor:pointer; font-family:inherit;}
    letter-spacing: 0.02em;
    color: #434455;
    text-decoration: none; }
-.mail:hover,  .mail:focus{
-    color: var(--accent-color);}
-.phone{}
+.header-adress-link:hover,.header-adress-link:focus {color: var(--accent-color);}
  /*----------------main-------------*/
 .hero { background-color: #2E2F42;
     }
