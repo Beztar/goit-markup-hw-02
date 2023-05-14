@@ -37,12 +37,12 @@ button {cursor:pointer; font-family:inherit;}
 }
 .header-navigation {
 }
-.logo {
+.header-logo {
     font-family: "Raleway",sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17px;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -132,7 +132,7 @@ button {cursor:pointer; font-family:inherit;}
 .team-text {
     }
 /*--------------main portfolio-------------*/  
-.portfolio-button-section{}
+.portfolio-section{}
 .button-list{}
 .buttom-item{}
 .portfolio-button{
@@ -149,8 +149,6 @@ button {cursor:pointer; font-family:inherit;}
     color: #FFFFFF;
     background-color: var(--accent-color);
 }
-
-.portfolio-images{}
 .portfolio-images-list{}
 .portfolio-images-item{}
 .portfolio-images-title-text
